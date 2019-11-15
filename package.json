@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js -e js"
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js",
+    "test" : "node test/test.js"
   },
   "author": "",
   "license": "ISC",
